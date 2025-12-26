@@ -13,9 +13,11 @@ def create_ring(node_ids):
 def chang_roberts(nodes):
     counter = {"messages": 0}
 
+    # Each node initiates an election
     for node in nodes:
         node.next.receive_election(node.id, counter)
 
+    # Find the leader
     leader = None
     for node in nodes:
         if node.is_leader:
