@@ -14,3 +14,18 @@ is elected as the leader through message passing.
 - Message cost is measured and displayed
 
 ## Project Structure
+.
+├── main.py
+├── node.py
+└── README.md
+
+perl
+Copy code
+
+> Both `main.py` and `node.py` must be in the same folder for the program to run correctly.
+
+## How to Run
+Make sure Python 3 is installed, then run:
+
+```bash
+python main.py
