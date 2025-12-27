@@ -9,12 +9,8 @@ is elected as the leader through message passing.
 
 ## Algorithm
 - Ring topology
-- Chang–Roberts leader election
-- Leader = highest ID
-- Message cost measured
+- Chang–Roberts leader election algorithm
+- Leader is the node with the highest ID
+- Message cost is measured and displayed
 
-## How to Run
-Install Python 3, then run:
-
-```bash
-python main.py
+## Project Structure
